@@ -18,7 +18,7 @@ class MyElement extends PolymerElement {
 
   modifyXp() {
     console.log("xp modified");
-    ZenMenuElement element = this.shadowRoot.querySelector('zen-progress');
+    let element = this.shadowRoot.querySelector('zen-progress');
     console.log(element);
     element.updateMenu();
   }
