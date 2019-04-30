@@ -1,5 +1,6 @@
 import {PolymerElement, html} from '@polymer/polymer';
 import 'polymer-zen-progress/index.js';
+import 'polymer-zen-menu/index.js';
 
 class MyElement extends PolymerElement {
 
