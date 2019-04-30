@@ -4,23 +4,13 @@ import 'polymer-zen-menu/index.js';
 
 class MyElement extends PolymerElement {
 
-  static get properties() {
-    return {
-      xp: {
-        notify: true,
-        type: Number,
-        value: 0
-      }
-    }
-  }
-
 
   static get template() {
     return html`
       <style> .xp { color: green; } </style>
       Welcome to Zen
-      <zen-progress xp=[[xp]]></zen-progress>
-      <zen-menu xp=[[xp]]></zen-menu>
+      <zen-progress xp={{xp}}></zen-progress>
+      <zen-menu xp={{xp}}></zen-menu>
     `;
   }
 
