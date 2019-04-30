@@ -10,12 +10,18 @@ class MyElement extends PolymerElement {
       <style> .title { color: purple; } </style>
       <span class="title">Welcome to Zen!<br /></span>
       <span class="tooltip">Here is your progress</span><br />
-      <zen-progress xp={{xp}}></zen-progress></br>
+      <zen-progress xp={{xp}} xp-changed="modifyXp"></zen-progress></br>
       <span class="tooltip">Choose something from the menu</span><br />
       <zen-menu xp={{xp}}></zen-menu>
     `;
   }
 
+  modifyXp() {
+    console.log("xp modified");
+    ZenMenuElement element = this.shadowRoot.querySelector('zen-progress');
+    console.log(element);
+    element.updateMenu();
+  }
 
 }
 
