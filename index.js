@@ -12,6 +12,7 @@ class MyElement extends PolymerElement {
         value: 0
       }
     }
+  }
 
 
   static get template() {
