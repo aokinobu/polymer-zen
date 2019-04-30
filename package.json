@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@polymer/polymer": "3.0.2",
-    "@webcomponents/webcomponentsjs": "2.0.0"
+    "@webcomponents/webcomponentsjs": "2.0.0",
+    "polymer-element-example": "git+https://gitlab.com/projectzen/polymer-zen-progress.git"
   }
 }
