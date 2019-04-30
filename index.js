@@ -7,9 +7,9 @@ class MyElement extends PolymerElement {
 
   static get template() {
     return html`
-      <style> .xp { color: green; } </style>
-      Welcome to Zen
-      <zen-progress xp={{xp}}></zen-progress>
+      <style> .title { color: purple; } </style>
+      <span class="title">This is the Zen Menu Component.</br></span>
+      <zen-progress xp={{xp}}></zen-progress></br>
       <zen-menu xp={{xp}}></zen-menu>
     `;
   }
