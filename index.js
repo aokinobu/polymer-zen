@@ -10,8 +10,8 @@ class MyElement extends PolymerElement {
     return html`
       <style> .xp { color: green; } </style>
       Welcome to Zen
-      <zen-progress />
-      <zen-menu />
+      <zen-progress></zen-progress>
+      <zen-menu></zen-menu>
     `;
   }
 }
