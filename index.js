@@ -8,8 +8,10 @@ class MyElement extends PolymerElement {
   static get template() {
     return html`
       <style> .title { color: purple; } </style>
-      <span class="title">This is the Zen Menu Component.</br></span>
+      <span class="title">Welcome to Zen!<br /></span>
+      <span class="tooltip">Here is your progress</span><br />
       <zen-progress xp={{xp}}></zen-progress></br>
+      <span class="tooltip">Choose something from the menu</span><br />
       <zen-menu xp={{xp}}></zen-menu>
     `;
   }
